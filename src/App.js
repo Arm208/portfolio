@@ -81,7 +81,7 @@ const slider =()=>{
                 </div>
                 <AiOutlineArrowRight className="btn_next" onClick={next}/>
                 <AiOutlineArrowLeft className="btn_prev" onClick={prev}/>
-                <div>sdjfhjghrjgltjgrgwfdgbenf</div>
+            
 
             </div>)
 }
