@@ -65,14 +65,14 @@ const slider =()=>{
 
 
 
-    return( <div className="slider"  ref={useSlide} >
+    return( <div className="slider"  ref={useSlide}>
                
                 <div ref={useContener} className="slider_contener">
                   {Img.map((el,i)=>{
                   return  <ul  className="slide_img_cont" key={i}>
                              <li className="slid_list">
-                                 <p className="text">ականջող</p>
-                                 <img className="img" width={width} src={`${el}.jpg`} alt=""/>
+                                 <p className="text">մեքենա</p>
+                                 <img className="img" width={width} src={`${el}`} alt=""/>
                                  <p className="text">գինը կախված է ձեր պատվերից</p>
                               </li>
                           </ul>
